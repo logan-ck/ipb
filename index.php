@@ -30,7 +30,7 @@
 				<div class="nav-container">
 					<!-- Navigation -->
 					<div class="nav">
-						<h1 id="logo">Indy <span class="red">Predators</span> <span class="sub">Monsters of the Midwest</span></h1>
+						<h1 id="logo">Indy <span class="red">Predators</span> <span class="sub">Baseball</span></h1>
 						<nav id="primary_nav_wrap">
 							<ul>
 							  <li class="current-menu-item"><a href="#">HOME</a></li>
@@ -107,7 +107,9 @@
 					<div class="act-pag">
 						<h4 class="main-header">Information Panel</h4>
 						<div class="inner-actpg">
-						
+							<div class="info-panel">
+							
+							</div>
 						</div>
 					</div>
 				</div>
