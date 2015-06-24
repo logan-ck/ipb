@@ -3,33 +3,91 @@ html, body, * {
 	margin: 0;
 	font-family: Hind;
 }
-
+body {
+	background-color: ;
+}
 /* Nav */
 .container {
 	position: relative;
-    top: 0; right: 0; bottom: 0; left: 0; background-color: orange;
+    top: 0; right: 0; bottom: 0; left: 0; background-color:;
 	min-width: 1200px;
 }
 .nav-container {
 	width: 100%;
 	background-color: black;
 	height: 65px;
-	overflow: hidden;
 }
 .nav {
 	width: 70%;
 	margin:auto;
 	height: 65px;
 	min-width: 996px;
+	background-color: black;
 }
-.navigator {
+#primary_nav_wrap {
 	float: right;
 }
-.navigator li {
-	display: inline;
-	float: left;
-	padding: 22px;
+#primary_nav_wrap ul {
+	list-style:none;
+	position:relative;
+	float:left;
+}
+
+#primary_nav_wrap ul a {
+	display:block;
 	color: white;
+	text-decoration:none;
+	font-weight:700;
+	font-size:13px;
+	line-height:32px;
+}
+
+#primary_nav_wrap ul li {
+	position:relative;
+	float:left;
+	margin:0;
+	padding:20px;
+	padding-bottom: 13px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#primary_nav_wrap ul li.current-menu-item {
+	background: #CE0000;
+	color: black;
+}
+
+#primary_nav_wrap ul li:hover {
+	background: #CE0000;
+	color: black;
+}
+
+#primary_nav_wrap ul ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background: black;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li {
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a {
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul {
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul {
+	display:block
 }
 #logo {
 	float: left;
@@ -39,7 +97,7 @@ html, body, * {
 	padding-left: 12px;
 }
 .red {
-	color: red;
+	color: #CE0000;
 }
 .sub {
 	font-size: 10px;
@@ -50,23 +108,47 @@ html, body, * {
 .content {
 	width: 70%;
 	height: 600px;
-	background-color: lime;
 	margin: auto;
 	min-width: 996px;
+	padding-top: .5em;
+	
 }
 .sidebar {
 	width: 30%;
 	height: 400px;
 	float: left;
+	border: 1px solid black;
+}
+.upcoming-game {
+	padding-top: 17px;
+}
+.inner-sidebar {
+	padding: 8px;
+}
+.location, .time {
+	font-size: 11px;
+	vertical-align: middle;
+	padding-top: 3px;
+	padding-left: 10px;
+}
+.linebreak {
+	margin-top: .8em;
+}
+.thumb {
+	float: left;
+}
+.info {
+	float: left;
 }
 .act-pag {
-	width: 70%;
+	width: 67%;
 	height: 400px;
 	float: right;
+	border: 1px solid black;
 }
 h4 {
 	text-align: center;
-	padding-top: 1.5em;
+	padding-top: .5em;
 }
 .slider {
 	width: 100%;
@@ -79,4 +161,7 @@ h4 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+.game-cont {
+	padding-top: 7px;
 }

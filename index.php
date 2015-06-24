@@ -31,14 +31,34 @@
 					<!-- Navigation -->
 					<div class="nav">
 						<h1 id="logo">Indy <span class="red">Predators</span> <span class="sub">Monsters of the Midwest</span></h1>
-						<nav id="nav"> 
-							<ul class="navigator">
-								<li>Home</li>
-								<li>Roster</li>
-								<li>Schedule</li>
-								<li>Gallery</li>
-								<li>Sponsors</li>
-								<li>Shop</li>
+						<nav id="primary_nav_wrap">
+							<ul>
+							  <li class="current-menu-item"><a href="#">HOME</a></li>
+							  <li><a href="#">ROSTERS</a>
+								<ul>
+								  <li><a href="#">18u Indy Predators</a></li>
+								  <li><a href="#">17u Indy Predators</a></li>
+								  <li><a href="#">16u Indy Predators</a></li>
+								  <li><a href="#">15u Indy Predators</a></li>
+								  <li><a href="#">14u Indy Predators</a></li>
+								</ul>
+							  </li>
+							  <li><a href="#">GAMES</a>
+								<ul>
+								  <li class="dir"><a href="#">Tournaments</a></li>
+								  <li class="dir"><a href="#">Upcoming</a>
+									<ul>
+									  <li><a href="#">Game @ Place</a></li>
+									  <li><a href="#">Game @ Place</a></li>
+									  <li><a href="#">Game @ Place</a></li>
+									  <li><a href="#">Game @ Place</a></li>
+									  <li><a href="#">Game @ Place</a></li>
+									</ul>
+								  </li>
+								</ul>
+							  </li>
+							  <li><a href="#">STORE</a></li>
+							  <li><a href="#">CONTACT</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -47,17 +67,45 @@
 				
 				<!-- Content -->
 				<div class="content">
-					<div class="slider">
-					
-					</div>
 					<div class="sidebar">
-						<h4 class="side-header">sidebar header</h4>
+						<h4 class="side-header">Upcoming Games</h4>
 						<div class="inner-sidebar">
-						
+							<div class="upcoming-game">
+								<h5>Indy Predators vs Eastern Hancock</h5>
+								<div class="game-cont">
+									<img class="thumb" src="img/ipb.jpg" height="50" width="80"/>
+									<p class="info">
+										<span class="location">Ben Davis High School</span> <br clear="left"/>
+										<span class="time">June 20th @ 10:00 PM</span>
+									</p> <br clear="left" />
+								</div>
+								<hr class="linebreak">
+							</div>
+							<div class="upcoming-game">
+								<h5>Indy Predators vs PrimeTime Sports Academy</h5>
+								<div class="game-cont">
+									<img class="thumb" src="img/ipb.jpg" height="50" width="80"/>
+									<p class="info">
+										<span class="location">Ben Davis High School</span> <br clear="left"/>
+										<span class="time">June 20th @ 10:00 PM</span>
+									</p> <br clear="left" />
+								</div>
+								<hr class="linebreak">
+							</div>
+							<div class="upcoming-game">
+								<h5>Indy Predators vs Indiana Dirtbags</h5>
+								<div class="game-cont">
+									<img class="thumb" src="img/ipb.jpg" height="50" width="80"/>
+									<p class="info">
+										<span class="location">Ben Davis High School</span> <br clear="left"/>
+										<span class="time">June 20th @ 10:00 PM</span>
+									</p> <br clear="left" />
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="act-pag">
-						<h4 class="main-header">main header</h4>
+						<h4 class="main-header">Information Panel</h4>
 						<div class="inner-actpg">
 						
 						</div>
